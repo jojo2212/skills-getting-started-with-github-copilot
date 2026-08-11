@@ -120,3 +120,4 @@ def unregister_participant(activity_name: str, email: str):
 
     activity["participants"].remove(email)
     return {"message": f"Unregistered {email} from {activity_name}"}
+# limits reached
